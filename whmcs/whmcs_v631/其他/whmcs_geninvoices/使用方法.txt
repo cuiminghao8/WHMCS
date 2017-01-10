@@ -1,0 +1,12 @@
+使用方法：
+
+1.解压压缩包内名为："geninvoices"的文件夹
+
+2.将模板文件夹上传至WHMCS程序所在目录:"./modules/addons" 中
+
+3.进入WHMCS后台，依次点击"setup->Addon Modules" 点击Geninvoices插件的激活即可
+
+4.客户可以访问：http://WHMCS路径/index.php?m=geninvoices  来自行创建续费订单
+
+5.同时可根据需要在对应主题模板中增加此续费链接的链接
+

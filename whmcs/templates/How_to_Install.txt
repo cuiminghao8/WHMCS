@@ -1,0 +1,21 @@
+
+Steps to install Flathost WHMCS Template (Compatible up to WHMCS v6.0)
+----------------------------------------------------------------------
+
+
+1. Upload the "Flathost" Folder to your WHMCS/templates folder.
+
+2. Upload the "/orderforms/flathost" folder to your server in WHMCS/templates/orderforms folder
+
+3. Activate "Flathost" Template from WHMCS Admin Panel Setup.
+
+4. Set "Flathost" as default Order form Template
+
+5. If you have existing Products/Services, Then change orderform to "Flathost" Template in Product Group Settings.
+
+6. Refresh the Client Area.
+
+
+If you need to update the WHMCS Header and footer for WHMCS, Open header.tpl and footer.tpl inside /flathost folder and edit accordingly. You can also copy paste from the HTML page to match with your website. 
+
+support: https://support.surjithctly.in/forums

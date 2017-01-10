@@ -1,0 +1,697 @@
+/*
+Master
+*/
+
+#order-flathost
+ {
+    margin: 0;
+    padding: 0 0 40px;
+}
+
+#order-flathost .title-bar {
+    margin: 0 0 25px 0;
+    text-align: center;
+}
+
+#order-flathost .title-bar h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#order-flathost select {
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+
+#order-flathost .clear {
+    clear: both;
+}
+
+#order-flathost #configcontainer, #order-flathost #configcontainer2 {
+    display: none;
+}
+
+#order-flathost .loading {
+    display: none;
+    width: 220px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+#order-flathost #cartLoader i {
+    font-size: 1.6em;
+}
+
+#order-flathost .errorbox {
+    display: none;
+    margin: 15px 0;
+    padding: 15px 20px;
+    background-color: #FBEEEB;
+    border: 1px dashed #cc0000;
+    font-weight: bold;
+    color: #cc0000;
+    text-align: center;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+#order-flathost .errorbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+}
+#order-flathost .errorbox li {
+    font-weight: normal;
+    text-align: left;
+    color:#000;
+}
+
+#order-flathost .textgreen {
+    color: #779500;
+}
+
+#order-flathost .textred {
+    color: #cc0000;
+}
+
+ 
+
+/*
+Product Categories
+*/
+
+#order-flathost .choosecat {
+    margin: 10px;
+}
+
+#order-flathost .currencychooser {
+    margin: 10px 30px;
+    padding: 0;
+    text-align: right;
+}
+
+/*
+Product Listing
+*/
+
+#order-flathost .product {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#order-flathost .product:hover {
+    background-color: #E6EDFF;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#order-flathost .product .pricing {
+    float: right;
+    text-align: right;
+    font-family: Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#order-flathost .product .name {
+    font-family: Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#order-flathost .product .prodfeature {
+    float: left;
+    margin: 5px 5px 0 0;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ff6600;
+}
+
+#order-flathost .product .prodfeature .feature {
+    font-size: 13px;
+    color: #666;
+}
+
+#order-flathost .product .description {
+    font-size: 0.9em;
+    margin: 15px 30px 10px 20px;
+}
+
+/*
+Domain Registrations
+*/
+
+#order-flathost .domainreg {
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    width: 70%;
+    background-color: #f6f6f6;
+    border: 1px dashed #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#order-flathost .domainoptions {
+    margin: 20px 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#order-flathost .domainoptions .option {
+    border-bottom: 1px solid #ccc;
+}
+#order-flathost .domainoptions .option label {
+    display: block;
+    padding: 20px 10px 20px 30px;
+}
+#order-flathost .domainoptions .option:first-child {
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+#order-flathost .domainoptions .option:last-child {
+    border-bottom: 0;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+#order-flathost .domainoptions .optionselected {
+    background-color: #F9F9F9;
+}
+
+#order-flathost .domainreginput {
+    margin: 0;
+    padding: 0 10px 10px 10px;
+}
+
+#order-flathost .domainreginput input, #order-flathost .domainreginput select, #order-flathost .domainregperiod select {
+    font-size: 14px;
+    padding: 3px;
+}
+
+#greyout {
+    display: none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: #ccc;
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+    z-index: 50000;
+}
+
+#domainpopupcontainer {
+    display: none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    text-align:center;
+    padding: 150px 0 0 0;
+    z-index: 50001;
+}
+
+#order-flathost div.domainresults div {
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+#domainresults {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 800px;
+    background-color: #fff;
+    text-align: center;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#order-flathost .domainbox {
+     background-color:#fff;
+     width:550px;
+     padding:15px;
+}
+
+#order-flathost .domainavailable {
+    background-color: #fff;
+    color: #9AC003;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#order-flathost .domainunavailable {
+    color: #cc0000;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#order-flathost .domaininvalid {
+    color: #cc0000;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#order-flathost .domainregperiod {
+    text-align: center;
+}
+
+#order-flathost div.domainsuggestions {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#order-flathost table.domainsuggestions {
+    margin: 0 auto;
+    width: 80%;
+}
+#order-flathost table.domainsuggestions th {
+    background-color: #1A4D80;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    line-height: 20px;
+    color: #fff;
+}
+#order-flathost table.domainsuggestions td {
+    background-color: #FFF;
+    text-align: center;
+    border-bottom: 1px solid #EBEBEB;
+    font-size: 11px;
+    line-height: 25px;
+}
+#order-flathost table.domainsuggestions td select {
+    font-size: 11px;
+}
+
+#order-flathost .domainconfig {
+    margin: 0 0 30px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*
+Product Config
+*/
+
+#order-flathost .billingcycle {
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin-bottom: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#order-flathost .serverconfig {
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin-bottom: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#order-flathost .configoptions {
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin-bottom: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#order-flathost .addons {
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin-bottom: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#order-flathost .customfields {
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin-bottom: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*
+Config Tables
+*/
+
+#order-flathost .configtable td {
+    padding: 2px 5px 2px 5px;
+}
+
+#order-flathost .configtable td.fieldlabel {
+    width: 250px;
+    text-align: right;
+}
+
+#order-flathost .configtable td.radiofield {
+    width: 40px;
+    text-align: center;
+}
+
+#order-flathost .configtable td.fieldarea {
+    background-color: #efefef;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    text-align: left;
+}
+
+#order-flathost .configoplabel {
+    color: #ff6600;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*
+Order Summary
+*/
+
+#order-flathost .ordersummary {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 100px;
+    margin-bottom: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#order-flathost .ordersummarytbl {
+    width: 100%;
+}
+
+#order-flathost .ordersummarytbl td {
+    font-size: 0.8em;
+}
+
+#order-flathost .summaryproduct {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+/*
+Addons
+*/
+
+#order-flathost .addoncontainer {
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    width: 90%;
+    background-color: #f6f6f6;
+    border: 1px dashed #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#order-flathost .addoncontainer .title {
+    margin: 0;
+    padding: 0;
+    font-family: Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-size: 16px;
+}
+
+#order-flathost .addoncontainer .desc {
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+#order-flathost .addoncontainer .pricing {
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #cc0000;
+}
+
+#order-flathost .addoncontainer select {
+    max-width: 50%;
+}
+
+/*
+Domain Renewals
+*/
+
+#order-flathost .regperiod {
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+#order-flathost table.renewals th {
+    background-color: #efefef;
+    font-weight: bold;
+    text-align: center;
+}
+#order-flathost table.renewals td {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*
+Shopping Cart
+*/
+
+#order-flathost table.cart {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+#order-flathost table.cart th {
+    background-color: #666;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 0;
+    line-height: 26px;
+    border-radius: 5px;
+}
+#order-flathost table.cart td {
+    background-color: #FFF;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 4px 15px;
+}
+#order-flathost table.cart tr.subtotal td {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 4px;
+}
+#order-flathost table.cart tr.subtotal:hover td {
+    background-color: #F5F5F5;
+}
+#order-flathost table.cart tr.promotion td {
+    background-color: #FFFFDA;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 4px;
+}
+#order-flathost table.cart tr.promotion:hover td {
+    background-color: #FFFFDA;
+}
+#order-flathost table.cart tr.total td {
+    background-color: #E7FFDA;
+    color: #339100;
+    border-bottom: 0;
+    font-weight: normal;
+    padding: 4px;
+}
+#order-flathost table.cart tr.total:hover td {
+    background-color: #E7FFDA;
+}
+#order-flathost table.cart tr.recurring td {
+    background-color: #F1EFDC;
+    border-bottom: 2px solid #666;
+    font-weight: normal;
+    padding: 4px;
+}
+#order-flathost table.cart tr.recurring:hover td {
+    background-color: #F1EFDC;
+}
+#order-flathost table.cart tr:hover td {
+    background-color: #EFF2F9;
+}
+#order-flathost table.cart th, #order-flathost table.datatable th a, #order-flathost table.datatable th a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#order-flathost table.cart th a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+#order-flathost .cartedit {
+    font-size: 0.8em;
+    color: #888;
+}
+
+#order-flathost .cartremove {
+    font-size: 0.8em;
+    color: #cc0000;
+}
+
+#order-flathost .cartbuttons {
+    float: right;
+    margin: 0;
+    padding: 10px 0 0 0;
+    width: 40%;
+    text-align: center;
+}
+
+#order-flathost .signuptype {
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 10px 20px;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    color: #000;
+    border-radius: 5px 5px 0 0;
+}
+#order-flathost .signuptype:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+#order-flathost .signuptype.active {
+    background-color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: -1px;
+}
+
+#order-flathost .signupfields {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+#order-flathost .signupfields .configtable td.fieldlabel {
+    width: 200px;
+}
+#order-flathost .signupfields.padded {
+    padding: 15px;
+    text-align: center;
+}
+#order-flathost .signupfields.hidden {
+    display: none;
+}
+#order-flathost .signupfields-existing {
+    padding: 40px;
+}
+
+#order-flathost .carttaxwarning {
+    margin: 0 0 20px 0;
+    color: #666;
+    text-align: center;
+}
+
+#order-flathost .cartwarningbox {
+    margin: 20px 0 20px 0;
+    padding: 7px;
+    border-top: 4px solid #EBE8CD;
+    border-bottom: 4px solid #EBE8CD;
+    background-color: #F1EFDC;
+    font-size: 0.9em;
+    text-align: center;
+    color: #000;
+}
+
+/*
+Domain Registration
+*/
+
+#order-flathost .domain-checker-fieldcontainer {
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+    background-color: #fff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#order-flathost .domain-checker-fieldcontainer .row {
+    margin-right: -2px;
+    margin-left: -2px;
+}
+#order-flathost .domain-checker-fieldcontainer .col-md-7 {
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+#order-flathost .domain-checker-fieldcontainer .col-md-3 {
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+#order-flathost .domain-checker-fieldcontainer .col-md-2 {
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+
+#order-flathost .domain-checker-fieldcontainer input,
+#order-flathost .domain-checker-fieldcontainer select,
+#order-flathost .domain-checker-fieldcontainer button {
+    margin-bottom: 5px;
+}
+

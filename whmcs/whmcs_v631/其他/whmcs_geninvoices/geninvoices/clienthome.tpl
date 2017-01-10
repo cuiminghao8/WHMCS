@@ -1,0 +1,2 @@
+{$geninvoicereturn}
+{$productlist}

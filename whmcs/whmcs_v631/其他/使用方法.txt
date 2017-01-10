@@ -1,0 +1,13 @@
+使用方法(以6.x为例，5.x步骤相似)：
+
+1.根据需要选择对应WHMCS支付接口插件的压缩包系统相关的的模板文件夹
+
+2.将对应压缩包解压模板文件夹上传至支付接口插件所在目录所在目录:"./modules/gateways" 中
+
+3.进入WHMCS后台，依次点击"Payment->payment gateways"进入支付接口管理页面
+
+4.选择"All Payment Gateways"，列表中会出现新上传的接口，点击接口名称进行激活
+
+5.跳转到配置页面，根据自己的信息补充完整，即可完成配置
+（提示：合作伙伴ID与安全检验码请到支付宝商户服务网站获取：https://b.alipay.com/order/serviceIndex.htm）
+
